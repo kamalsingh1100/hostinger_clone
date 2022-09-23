@@ -4,7 +4,7 @@
     background-color: var(--body-bg);
     background: var(--hero);
     max-height: 90vh;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .hero-sec{
