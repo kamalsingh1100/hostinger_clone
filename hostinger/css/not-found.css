@@ -1,0 +1,40 @@
+/* ################## Not found */
+#not-found{
+    background: var(--body-bg);
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.nf-data{
+    margin: auto;
+    padding: 1rem;
+    min-height: 30vh;
+    max-height: 70vh;
+    text-align: center;
+    line-height: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nf-data .text h2{
+    margin: 0.5em auto;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+.nf-data .text p{
+    margin: 0.3em auto;
+}
+
+.nf-btn a{
+    margin: 2.5rem 0 0 0;
+    padding: 1em 2em;
+}
+
+.nf-img{
+    width: 200px;
+    height: 140px;
+}

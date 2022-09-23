@@ -1,0 +1,99 @@
+/* ######################### style footer section ##################### */
+
+#footer{
+    background-color: var(--up-ftr);
+    padding: 7rem 0rem 0rem;
+    font-weight: 400;
+}
+
+#footer h3{
+    font-weight: 800;
+    margin-bottom: 0.4em;
+}
+
+.up-footer{
+    padding: 0 0.1rem 3rem;
+}
+
+div.up-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.l-img{
+    width: 20rem;
+    padding: 0;
+    margin: 0;
+}
+
+.up-sec .about{
+    margin-top: -1.5rem;
+}
+
+.up-sec .p-data{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.p-data .p-img{
+    height: 3rem;
+}
+
+.p-data a{
+    text-underline-offset: 0.2em;
+    font-size: 1.6rem;
+}
+
+.p-data a:hover{
+    color: white;
+    text-decoration: underline 1px solid white;
+}
+
+.p-data a:hover{
+    color: red;
+    text-decoration: underline 1px solid red;
+}
+
+div.grids{
+    display: grid;    
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+div.grids li{
+    font-size: 1.6rem;
+    transition: all 0.2s linear;
+}
+
+div.grids ul a:hover{
+    color: white;    
+}
+
+div.grids ul a:active{
+    color: red;    
+}
+
+
+/* ################### lower footer ####################### */
+
+.lw-footer{
+    background: var(--lw-ftr);
+    padding: 1rem 0.1rem;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.lw-footer .social i{
+    font-size: 3rem;
+    padding: 0.3em 0.1em;
+}
+
+.lw-footer .ftr-txt{
+    font-size: 1.6rem;
+}

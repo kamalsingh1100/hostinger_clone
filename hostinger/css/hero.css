@@ -1,0 +1,149 @@
+/* #################### hero section ################# */
+
+#hero{
+    background-color: var(--body-bg);
+    background: var(--hero);
+    max-height: 90vh;
+    overflow-y: hidden;
+}
+
+.hero-sec{
+    margin: auto;
+    padding: 3.5rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+
+.left, .right{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+:is(.left, .right) .img{
+    height: 100%;
+    width: 100%;
+}
+
+:is(.left, .right) .img img{
+    width: 150%;
+    height: 100%;
+    overflow-x: visible;
+    overflow-y: hidden;
+    object-fit: contain;
+    object-position: top;
+    position: absolute;
+    top: 0;
+}
+
+.left img{
+    right: -20%;
+}
+
+.right img{
+    left: -15%;
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    justify-self: center;
+    z-index: 9;
+}
+
+.inr-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.inr-center h2{
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 1.2em;
+    padding: 0;
+    margin: 0;
+}
+
+.inr-center p{
+    text-align: center;
+}
+
+.inr-center p .r{
+    font-size: 3rem;
+    font-weight: 1000;
+    vertical-align: 1rem;
+    padding-right: 0.15em;
+}
+
+.inr-center p .rate{
+    font-size: 5rem;
+    font-weight: 1000;
+}
+
+.inr-center p .p-mnth{
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+p.desc{
+    width: 75%;
+    line-height: 1.2em;
+    font-size: 1.7rem;
+}
+
+div.time-left{
+    margin-top: 2rem;
+    align-self: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+div.tm{
+    text-align: center;
+}
+
+div.no{
+    background: var(--white);
+    height: 2.5em;
+    width: 2.5em;
+    padding: 1em;
+    font-size: 2.5rem;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.tm span{
+    font-size: 1.4rem;
+    line-height: 1.1em;
+}
+
+.inr-center p.guarantee{
+    font-size: 1.7rem;
+    line-height: 1.2em;
+    margin-top: 0.4em;
+}
+
+.inr-center p.guarantee i{
+    color: green;
+    font-weight: 1000;
+}
+
+.inr-center a.primary-btn{
+    margin-top: 2.5rem;
+}
+
+

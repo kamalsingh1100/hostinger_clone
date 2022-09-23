@@ -1,0 +1,48 @@
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-Bold.otf");
+    font-weight: 1000;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-SemiBold.otf");
+    font-weight: 700;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-Medium.otf");
+    font-weight: 400;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-Regular.otf");
+    font-weight: 500;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-Light.otf");
+    font-weight: 300;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-ExtraLight.otf");
+    font-weight: 200;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url("../font/Poppins-Italic.otf");
+    font-style: italic;
+    font-display: fallback;
+}

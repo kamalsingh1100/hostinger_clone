@@ -1,0 +1,27 @@
+#services{
+    background-color: var(--container-bg);
+    padding: 7rem 0;
+}
+
+.s-grids{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 1rem;
+}
+
+.s-grids .row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+    min-height: 80px;
+}
+
+.s-grids .row i{
+    font-size: 3rem;
+}
+
+.s-grids .row p{
+    font-weight: 700;
+}

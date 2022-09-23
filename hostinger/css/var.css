@@ -1,0 +1,17 @@
+/* ####################### Creating variable ################## */
+
+:root {
+    --white: white;
+    --black: black;
+    --red: red;
+    --shadow: #E0E0E0;
+    --body-bg: #fff;
+    --container-bg: #ffc5f3;
+    --nav-bg: #F48FB1;
+    --hover: #ffa0c1;
+    --inr-hover: #ffacc7;
+    --hero: #F06292;
+    --hd-bg: #ec407a;
+    --up-ftr: #EC407A;
+    --lw-ftr: #880e4f;
+}

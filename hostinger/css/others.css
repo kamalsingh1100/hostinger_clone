@@ -1,0 +1,138 @@
+
+/* ####################### styling s-domain section ##############  */
+
+#s-domain{
+    background-color: var(--container-bg);
+    padding: 7rem 0.01rem;
+}
+
+div.domain-sec{
+    padding-top: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    gap: 2.5rem;
+}
+
+.domain-sec .item1{
+    font-size: 3rem;
+    line-height: 1.1em;
+}
+
+.domain-sec .item2{
+    font-size: 1.7rem;
+    line-height: 1.1em;
+}
+
+.domain-sec .item3{
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+    align-self: center;
+}
+
+input#e-domain{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 1rem 28% 1rem 2rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 10px 2px var(--shadow);
+}
+
+input#search-dmn{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 25%;
+    border-radius: 50px;
+    background-color: var(--red);
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* ################# post section styling ########### */
+
+#post{
+    background-color: var(--body-bg);
+    padding: 7rem 0.01rem;
+}
+
+.post-sec{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.data h3{
+    font-size: 3.5rem;
+}
+
+.data a{
+    color: red;
+    text-decoration: underline 2px solid red;
+    text-underline-offset: 0.2em;
+}
+
+#post2{
+    margin-top: 5rem;
+}
+
+#post2 .data{
+    order: 2;
+}
+
+
+
+
+/* ##################### Styling g-started section ################## */
+
+#g-started{
+    background-color: var(--container-bg);
+    padding: 7rem 1rem;
+}
+
+.start-sec{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    gap: 2rem;
+}
+
+.start-sec h3{
+    font-size: 3rem;
+}
+
+.start-sec a{
+    align-self: center;
+}
+
+#suggest{
+    background-color: var(--body-bg);
+    padding: 5rem 3rem;
+}
+
+
+
+

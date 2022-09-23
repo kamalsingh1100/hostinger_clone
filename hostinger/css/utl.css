@@ -1,0 +1,73 @@
+/* ################### Utility Classes ################ */
+
+.container{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.primary-btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0.5em 1.5em;
+    background-color: var(--red);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 0.3em;
+    font-size: 2rem;
+    border-radius: 50px;
+    transition: all 0.2 linear;
+    transition: all 0.2s linear;
+}
+
+.primary-btn:hover{
+    background-color:  #ff1e1ee7;
+    box-shadow: 0px 0px 70px 10px red;
+}
+
+.primary-btn:active{
+    transform: scale(0.9);
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.cut{
+    text-decoration: line-through 2px solid rgba(0, 0, 0, 0.5);
+}
+
+nav#nav.transparent{
+    background-color: var(--hero) !important;
+    box-shadow: none !important;
+}
+
+.c-heading{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.menu-heading {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.3rem solid red;
+}
+
+.h2-heading {
+    font-size: 3rem;
+    line-height: 1.2em;
+    font-weight: 1000;
+}
+
+
+
