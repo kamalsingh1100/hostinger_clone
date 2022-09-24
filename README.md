@@ -3,7 +3,7 @@ this is hostinger clone for thapatechnical codefest. I created log-in page, home
 
 
 ## sorry for some mistakes.
-when i upload this project on night 11:30 i found some problem in this file. and i fixed them.
+when i upload this project on night 11:30 i found some problem in this file. and i fixed them around 11:55.
 1. I found that I wrote by mistake overflow-y: hidden; in place of overflow-x: hidden; and i correct it.
 
 
